@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Retrofit-MVP-ISS-Pass</string>
+    <string name="button_text">Press here!</string>
+    <string name="service_call_error_message">Error: Service call failed!</string>
+    <string name="your_latitude_label">Your Latitude: </string>
+    <string name="your_longitude_label">Your Longitude: </string>
+    <string name="iss_pass_duration_label">Duration: </string>
+    <string name="iss_pass_risetime_label">RiseTime: </string>
+</resources>

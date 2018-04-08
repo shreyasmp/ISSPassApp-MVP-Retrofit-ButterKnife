@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/iss_pass_duration_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_5dp"
+        android:text="@string/iss_pass_duration_label" />
+
+    <TextView
+        android:id="@+id/iss_pass_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iss_pass_duration_label"
+        android:padding="@dimen/dimen_5dp"
+        tools:text="@string/iss_pass_duration_label" />
+
+    <TextView
+        android:id="@+id/iss_pass_risetime_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iss_pass_duration_label"
+        android:padding="@dimen/dimen_5dp"
+        android:text="@string/iss_pass_risetime_label" />
+
+    <TextView
+        android:id="@+id/iss_pass_risetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iss_pass_duration"
+        android:layout_toEndOf="@+id/iss_pass_risetime_label"
+        android:padding="@dimen/dimen_5dp"
+        tools:text="@string/iss_pass_risetime_label" />
+
+</RelativeLayout>
